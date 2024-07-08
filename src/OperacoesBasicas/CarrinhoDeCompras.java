@@ -11,8 +11,8 @@ public class CarrinhoDeCompras {
         this.itemList = new ArrayList<>();
     }
 
-    public void adicionarItem(String nome, double preco, int quantidade) {
-        Item item = new Item(nome, preco, quantidade);
+    public void adicionarItem(String nome, double preco, int qtd) {
+        Item item = new Item(nome, preco, qtd);
         this.itemList.add(item);
     }
 
